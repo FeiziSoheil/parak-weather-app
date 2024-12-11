@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* برای Poppins */
+@import "@fontsource/poppins/300.css"; /* Light */
+@import "@fontsource/poppins/400.css"; /* Regular */
+@import "@fontsource/poppins/600.css"; /* Semi-Bold */
+
+/* برای Roboto */
+@import "@fontsource/roboto/400.css"; /* Regular */
+@import "@fontsource/roboto/700.css"; /* Bold */
+
+@import "swiper/css";
+@import "swiper/css/pagination";
+@import "swiper/css/navigation";
