@@ -17,7 +17,6 @@ The **Weather Forecast App** is an intuitive application that provides real-time
 - **Tailwind CSS**: For responsive and modern UI design.
 - **Framer Motion**: For animations and transitions.
 - **MUI (Material-UI)**: For pre-designed and customizable UI components.
-- **Vite**: As the build tool and development server for fast performance.
 - **WeatherAPI**: To fetch weather data for current, hourly, and 3-day forecasts.
 - **Unsplash API**: To fetch images related to the searched city.
 
@@ -25,6 +24,7 @@ The **Weather Forecast App** is an intuitive application that provides real-time
 
 ### Home Screen
 ![Home Screen](https://github.com/user-attachments/assets/e6fcfca7-705f-4438-a88e-7148278d21f3)
+
 
 ## Installation
 1. Clone the repository:
@@ -37,18 +37,18 @@ The **Weather Forecast App** is an intuitive application that provides real-time
    ```
 3. Install dependencies:
    ```bash
-   npx install
+   npm install
    ```
 4. Create an `.env` file in the root directory and add your API keys:
    ```env
-   VITE_WEATHER_API_KEY=your_weather_api_key
-   VITE_UNSPLASH_API_KEY=your_unsplash_api_key
+   REACT_APP_WEATHER_API_KEY=your_weather_api_key
+   REACT_APP_UNSPLASH_API_KEY=your_unsplash_api_key
    ```
 5. Run the development server:
    ```bash
-   npx run dev
+   npm start
    ```
-6. Open your browser and navigate to the URL displayed in the terminal (usually `http://localhost:5173`).
+6. Open your browser and navigate to the URL displayed in the terminal (usually `http://localhost:3000`).
 
 ## Deployment
 The project is live and accessible at: [Weather Forecast App](https://feizisoheil.github.io/weather-app/)
