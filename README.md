@@ -1,6 +1,6 @@
 # Weather Forecast App
 
-[Live Demo](https://feizisoheil.github.io/weather-app/)
+[Live Demo](https://feizisoheil.github.io/parak-weather-app/)
 
 ## Introduction
 The **Weather Forecast App** is an intuitive application that provides real-time weather updates and forecasts. This project combines modern UI tools and external APIs to deliver accurate and visually appealing weather information.
